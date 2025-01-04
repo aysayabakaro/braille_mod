@@ -15,7 +15,7 @@ $(document).ready( function() {
 		marginHeight: 5,
 		paperWidth: 110,
 		paperHeight: 290,
-		letterWidth: 2,
+		letterWidth: 1.5,
 		dotRadius: 1,
 		letterPadding: 3,
 		linePadding: 3,
