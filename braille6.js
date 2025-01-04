@@ -23,7 +23,7 @@ languages['6 dots'] = {
 			2: 6
 		}
 	},
-	numberPrefix: [3,4,5,6],
+	numberPrefix: [3,4],
 	latinToBraille: {
 		"a": [1],
 		"b": [1,2],
