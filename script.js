@@ -11,13 +11,13 @@ $(document).ready( function() {
 
 	// global object to store all parameters: braille dimensions are standards
 	let braille = {
-		marginWidth: 3,
+		marginWidth: 10,
 		marginHeight: 5,
-		paperWidth: 175,
+		paperWidth: 110,
 		paperHeight: 290,
-		letterWidth: 2.3,
-		dotRadius: 1.25,
-		letterPadding: 3.75,
+		letterWidth: 1.5,
+		dotRadius: 1,
+		letterPadding: 3,
 		linePadding: 3,
 		headDownPosition: -2.0,
 		headUpPosition: 10,
@@ -443,7 +443,7 @@ $(document).ready( function() {
 			} else if(isWritingNumber && char == ' ') {
 				isWritingNumber = false;
 			} else if( charIsCapitalLetter ) { 							// if capital letter: add prefix, lowerCase letter and reread the same char
-				indices = [6];
+				indices = [4, 6];
 				textCopy = replaceAt(textCopy, i, textCopy[i].toLowerCase());
 				i--;
 			}
